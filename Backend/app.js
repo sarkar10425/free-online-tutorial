@@ -19,5 +19,5 @@ app.get('/api/slots', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`Server listening at http://localhost:${port}/api/slots`)
+    console.log(`Server listening at http://localhost:${PORT}/api/slots`)
 })
