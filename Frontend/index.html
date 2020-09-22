@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NotchUp</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="./js/script.js"></script>
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Book a FREE Trial Coding Session
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Parent's Name</span>
+					<input class="input100" type="text" name="name" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Parent's Contact Number</span>
+					<input class="input100" type="text" name="name" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Parent's Email ID</span>
+					<input class="input100" type="email" name="name" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Child's Name</span>
+					<input class="input100" type="text" name="name" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Child's Age</span>
+					<input class="input100" type="number" name="name" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Course Name</span>
+					<div>
+						<select id="courses" class="selection-2" name="courses">
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Date for the course</span>
+					<div>
+						<select onclick="setDates()" id="date-slots" class="selection-2" name="course-date">
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Time slot for the course</span>
+					<div>
+						<select onclick="setTimeSlots()" id="time-slots" class="selection-2" name="course-slot">
+							<option>Select Time Slot</option>
+							<option>10:00 am - 11:00 am</option>
+							<option>11:00 am - 12:00 pm</option>
+							<option>12:00 pm - 1:00 pm</option>
+							<option>1:00 pm - 2:00 pm</option>
+							<option>2:00 pm - 3:00 pm</option>
+							<option></option>
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							<span>
+								Submit
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
