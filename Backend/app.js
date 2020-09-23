@@ -2,7 +2,7 @@ const express=require('express')
 const app = express()
 const Slots = require('./api/models/slots')
 const slots = new Slots()
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
