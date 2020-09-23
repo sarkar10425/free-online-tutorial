@@ -1,4 +1,4 @@
-const url = `http://localhost:8000/api/slots`;
+const url = `http://localhost:8080/api/slots`;
 let datas = null;
 let flag1 = false, flag2 = false;
 
